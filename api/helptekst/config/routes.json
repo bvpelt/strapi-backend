@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/helpteksts",
+      "handler": "helptekst.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/helpteksts/count",
+      "handler": "helptekst.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/helpteksts/:id",
+      "handler": "helptekst.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/helpteksts",
+      "handler": "helptekst.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/helpteksts/:id",
+      "handler": "helptekst.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/helpteksts/:id",
+      "handler": "helptekst.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

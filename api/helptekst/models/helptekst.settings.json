@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "helpteksts",
+  "info": {
+    "name": "helptekst"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "helpid": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "helptekst": {
+      "type": "richtext"
+    }
+  }
+}
